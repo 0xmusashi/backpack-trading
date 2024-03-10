@@ -1,6 +1,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 const backpack_client_1 = require("./backpack_client");
+require('dotenv').config();
 
 const API_KEY = process.env.API_KEY;
 const API_SECRET = process.env.API_SECRET;
